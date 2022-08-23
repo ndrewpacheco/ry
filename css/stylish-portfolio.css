@@ -193,6 +193,8 @@ hr.small {
 .gallery {
     padding: 20px;
 }
+
+
 /* Callout */
 
 .callout {
@@ -279,9 +281,7 @@ body {
 }
 
 
-
 .yt_video iframe {
-   
     width: 640px;
     height: 360px;
 }
@@ -307,5 +307,4 @@ figcaption {
         min-width: 280px;
         min-height: 100%;
     }
-    
   }

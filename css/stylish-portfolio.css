@@ -274,9 +274,17 @@ body {
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
     width: 100vw;
-    height: 100vh
-}
+    height: 100vh;
 
+    /* hide scrollbar but allow scrolling */
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
 #epk {
     background-color: black;
 }
@@ -310,7 +318,4 @@ figcaption {
     }
   }
 
-  ::-webkit-scrollbar {
-    width: 0;
-    background: transparent; /* make scrollbar transparent */
-    }
+ 

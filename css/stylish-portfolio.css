@@ -275,20 +275,13 @@ body {
     font-family: 'Courier New', Courier, monospace;
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 
-    /* hide scrollbar but allow scrolling */
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
-    overflow-y: scroll; 
-  }
-  
-  body::-webkit-scrollbar {
-    display: none; /* for Chrome, Safari, and Opera */
-  }
+}
+
 #epk {
     background-color: black;
 }
-
 
 .yt_video iframe {
     width: 640px;

@@ -309,3 +309,8 @@ figcaption {
         min-height: 100%;
     }
   }
+
+  ::-webkit-scrollbar {
+    width: 0;
+    background: transparent; /* make scrollbar transparent */
+    }

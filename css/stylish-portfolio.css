@@ -271,11 +271,10 @@ footer, footer a {
 
 body {
     background-color: #fdfdfd;
-    font-size: 18px;
+    font-size: 22px;
     font-family: 'Courier New', Courier, monospace;
     width: 100vw;
     height: 100vh;
-
     max-width: 100%;
     overflow-x: hidden;
     
@@ -299,10 +298,12 @@ body {
 
 blockquote {
     border-left: none;
+    font-size: 20px;
+    line-height: 2.5;
 }
 
 figcaption {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 @media only screen and (max-width: 750px) {

@@ -271,12 +271,12 @@ footer, footer a {
 
 body {
     background-color: #fdfdfd;
-    font-size: 22px;
-    font-family: 'Lora', serif;    width: 100vw;
+    font-size: 26px;
+    font-family: 'Lora', serif;   
+    width: 100vw;
     height: 100vh;
     max-width: 100%;
     overflow-x: hidden;
-    
 
 }
 
@@ -297,12 +297,12 @@ body {
 
 blockquote {
     border-left: none;
-    font-size: 22px;
-    /* line-height: 2.5; */
+    font-size: 26px;
+   
 }
 
 figcaption {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 @media only screen and (max-width: 750px) {

@@ -285,8 +285,9 @@ body {
 }
 
 .yt_video iframe {
-    width: 640px;
-    height: 360px;
+    /* 853 x 505 */
+    width: 853px;
+    height: 505px;
 }
 
 

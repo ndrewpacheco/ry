@@ -176,13 +176,13 @@ hr.small {
 /* About */
 
 .about {
-    padding: 50px 0;
+    padding: 15px 0;
 }
 
 /* epk */
 
 .epk {
-    padding: 50px 0;
+    padding: 15px 0;
 }
 
 .service-item {
@@ -191,7 +191,7 @@ hr.small {
 
 /* gallery */
 .gallery {
-    padding: 20px;
+    padding: 15px;
 }
 
 
@@ -202,7 +202,7 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
-    padding: 1.2em;
+    padding: 15px 0;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;

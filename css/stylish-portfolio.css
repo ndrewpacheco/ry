@@ -280,6 +280,10 @@ body {
 
 }
 
+.title {
+    text-decoration: underline;
+}
+
 #epk {
     background-color: black;
 }

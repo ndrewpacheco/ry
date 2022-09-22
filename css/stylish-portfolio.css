@@ -310,6 +310,13 @@ figcaption {
     font-size: 22px;
 }
 
+.custom_gallery_img {
+    display: block;
+    width: 360px;
+    height: 240px;
+    object-fit: cover;
+}
+
 @media only screen and (max-width: 750px) {
     .yt_video iframe {
    
